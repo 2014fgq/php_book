@@ -106,3 +106,243 @@ java.io.IOException: 无法保存配置文件“D:\php3\configuration\org.eclips
 
 !ENTRY org.eclipse.osgi 2 1 2014-09-13 14:00:26.714
 !MESSAGE NLS unused message: disassembler_comma in: org.eclipse.wst.jsdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:21:46.391
+!MESSAGE NLS unused message: _UI_LABEL_BROWSE_1 in: org.eclipse.wst.xml.ui.internal.XMLUIPluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:21:48.321
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.jdt.internal.ui.JavaUIMessages
+!SESSION 2014-09-13 14:22:01.221 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.5.0_09
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-09-13 14:22:04.975
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:22:09.231
+!MESSAGE 不能备份当前配置
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:22:09.341
+!MESSAGE 未能重命名配置临时文件
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:22:09.347
+!MESSAGE 无法保存配置文件“D:\php3\configuration\org.eclipse.update\platform.xml.tmp”
+!STACK 0
+java.io.IOException: 无法保存配置文件“D:\php3\configuration\org.eclipse.update\platform.xml.tmp”
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:690)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:574)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.startup(PlatformConfiguration.java:714)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.getPlatformConfiguration(ConfigurationActivator.java:404)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:136)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.createInstance(ServiceComponent.java:457)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.createInstance(ServiceComponentProp.java:254)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:315)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:580)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse$1.run(ServiceUse.java:120)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse.getService(ServiceUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:447)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:430)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getService(BundleContextImpl.java:667)
+	at org.osgi.util.tracker.ServiceTracker.addingService(ServiceTracker.java:442)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:896)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:261)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:339)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:273)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getBundleGroupProviders(InternalPlatform.java:223)
+	at org.eclipse.core.runtime.Platform.getBundleGroupProviders(Platform.java:1261)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchPlugin.getFeatureInfos(IDEWorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.makeFeatureDependentActions(WorkbenchActionBuilder.java:1178)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.makeActions(WorkbenchActionBuilder.java:1001)
+	at org.eclipse.ui.application.ActionBarAdvisor.fillActionBars(ActionBarAdvisor.java:147)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.fillActionBars(WorkbenchActionBuilder.java:335)
+	at org.eclipse.ui.internal.WorkbenchWindow.fillActionBars(WorkbenchWindow.java:3527)
+	at org.eclipse.ui.internal.WorkbenchWindow.<init>(WorkbenchWindow.java:414)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createWorkbenchWindow(Workbench3xImplementation.java:31)
+	at org.eclipse.ui.internal.Workbench.newWorkbenchWindow(Workbench.java:1874)
+	at org.eclipse.ui.internal.Workbench.access$14(Workbench.java:1872)
+	at org.eclipse.ui.internal.Workbench$21.runWithException(Workbench.java:1198)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1566)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2537)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:22:11.195
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.wst.jsdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:22:22.905
+!MESSAGE NLS unused message: _UI_LABEL_BROWSE_1 in: org.eclipse.wst.xml.ui.internal.XMLUIPluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:22:51.940
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.jdt.internal.ui.JavaUIMessages
+!SESSION 2014-09-13 14:23:55.901 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.5.0_09
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-09-13 14:23:59.691
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:24:03.998
+!MESSAGE 不能备份当前配置
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:24:04.038
+!MESSAGE 未能重命名配置临时文件
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-09-13 14:24:04.047
+!MESSAGE 无法保存配置文件“D:\php3\configuration\org.eclipse.update\platform.xml.tmp”
+!STACK 0
+java.io.IOException: 无法保存配置文件“D:\php3\configuration\org.eclipse.update\platform.xml.tmp”
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:690)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:574)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.startup(PlatformConfiguration.java:714)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.getPlatformConfiguration(ConfigurationActivator.java:404)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:136)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.createInstance(ServiceComponent.java:457)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.createInstance(ServiceComponentProp.java:254)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:315)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:580)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse$1.run(ServiceUse.java:120)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse.getService(ServiceUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:447)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:430)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getService(BundleContextImpl.java:667)
+	at org.osgi.util.tracker.ServiceTracker.addingService(ServiceTracker.java:442)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:896)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:261)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:339)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:273)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getBundleGroupProviders(InternalPlatform.java:223)
+	at org.eclipse.core.runtime.Platform.getBundleGroupProviders(Platform.java:1261)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchPlugin.getFeatureInfos(IDEWorkbenchPlugin.java:281)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.makeFeatureDependentActions(WorkbenchActionBuilder.java:1178)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.makeActions(WorkbenchActionBuilder.java:1001)
+	at org.eclipse.ui.application.ActionBarAdvisor.fillActionBars(ActionBarAdvisor.java:147)
+	at org.eclipse.ui.internal.ide.WorkbenchActionBuilder.fillActionBars(WorkbenchActionBuilder.java:335)
+	at org.eclipse.ui.internal.WorkbenchWindow.fillActionBars(WorkbenchWindow.java:3527)
+	at org.eclipse.ui.internal.WorkbenchWindow.<init>(WorkbenchWindow.java:414)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createWorkbenchWindow(Workbench3xImplementation.java:31)
+	at org.eclipse.ui.internal.Workbench.newWorkbenchWindow(Workbench.java:1874)
+	at org.eclipse.ui.internal.Workbench.access$14(Workbench.java:1872)
+	at org.eclipse.ui.internal.Workbench$21.runWithException(Workbench.java:1198)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1566)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2537)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:24:06.479
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.wst.jsdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:24:18.886
+!MESSAGE NLS unused message: _UI_LABEL_BROWSE_1 in: org.eclipse.wst.xml.ui.internal.XMLUIPluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 14:24:42.102
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.jdt.internal.ui.JavaUIMessages
