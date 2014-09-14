@@ -9,4 +9,5 @@
 	
 	$logger = Logger::getRootLogger();
 	$logger->debug("Hello World!");
+	$logger->info("Hello World!");
 ?>
