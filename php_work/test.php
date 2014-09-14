@@ -10,4 +10,12 @@
 	$logger = Logger::getRootLogger();
 	$logger->debug("Hello World!");
 	$logger->info("Hello World!");
+	
+	require_once("phpunitTest.php");   
+	$s = new PHPUnit_TestSuite("calculatorTest");
+	$r = PHPUnit::run($s);   
+	echo $r->toString();   
+	
+	
+
 ?>
